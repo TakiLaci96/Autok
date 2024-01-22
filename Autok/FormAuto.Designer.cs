@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAuto));
             this.label_Rendszam = new System.Windows.Forms.Label();
             this.textBox_Rendszam = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -346,6 +347,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox_Rendszam);
             this.Controls.Add(this.label_Rendszam);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAuto";
             this.Text = "FormAuto";
             this.Load += new System.EventHandler(this.FormAuto_Load);

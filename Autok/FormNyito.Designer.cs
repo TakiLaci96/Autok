@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNyito));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.autóToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.újToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,21 +63,21 @@
             // újToolStripMenuItem
             // 
             this.újToolStripMenuItem.Name = "újToolStripMenuItem";
-            this.újToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.újToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.újToolStripMenuItem.Text = "Új";
             this.újToolStripMenuItem.Click += new System.EventHandler(this.újToolStripMenuItem_Click);
             // 
             // módosítToolStripMenuItem
             // 
             this.módosítToolStripMenuItem.Name = "módosítToolStripMenuItem";
-            this.módosítToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.módosítToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.módosítToolStripMenuItem.Text = "Módosít";
             this.módosítToolStripMenuItem.Click += new System.EventHandler(this.módosítToolStripMenuItem_Click);
             // 
             // törölToolStripMenuItem
             // 
             this.törölToolStripMenuItem.Name = "törölToolStripMenuItem";
-            this.törölToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.törölToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.törölToolStripMenuItem.Text = "Töröl";
             this.törölToolStripMenuItem.Click += new System.EventHandler(this.törölToolStripMenuItem_Click);
             // 
@@ -106,6 +107,7 @@
             this.Controls.Add(this.panel_Markak);
             this.Controls.Add(this.listBox_AutokLista);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormNyito";
             this.Text = "Autó adatok";
